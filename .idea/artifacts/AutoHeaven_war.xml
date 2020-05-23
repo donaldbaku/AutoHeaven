@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AutoHeaven:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AutoHeaven</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AutoHeaven-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AutoHeaven:war exploded" />
+    </root>
+  </artifact>
+</component>

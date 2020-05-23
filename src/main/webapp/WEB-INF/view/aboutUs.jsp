@@ -1,0 +1,25 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@include file="/WEB-INF/view/template/header.jsp" %>
+
+<div class="container-wrapper">
+    <div class="container">
+        <section>
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Projekt per lenden E-Commerce</h1>
+
+                    <p>Donald Baku</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <p>
+                <a href="<spring:url value="/" />" class="btn btn-lg btn-outline-success">OKAY</a>
+            </p>
+        </section>
+
+    </div>
+</div>
+
+<%@include file="/WEB-INF/view/template/footer.jsp" %>
